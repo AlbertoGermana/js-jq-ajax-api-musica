@@ -1,4 +1,4 @@
-$<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it>
 <head>
     <meta charset="UTF-8">
@@ -7,21 +7,23 @@ $<!DOCTYPE html>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="container">
 
 
     </div>
     <script id="cover-template" type="text/x-handlebars-template">
-    
-        <div>
-            <img src="{{cover}}">
+        <div class="card">
+            <div class="cover-up">
+                <img src="{{cover}}">
+            </div>
+            <div class="cover-info">
+                <span class="title">{{title}}</span>
+                <span class="artist">{{artist}}</span>
+                <span class="year">{{year}}</span>
+            </div>
         </div>
-        <div>
-            <span class="title">{{title}}</span>
-            <span class="artist">{{artist}}</span>
-            <span class="year">{{year}}</span>
-        </div>
+
+
     </script>
 
 

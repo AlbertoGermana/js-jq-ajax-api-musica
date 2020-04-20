@@ -5,21 +5,43 @@
 }
 
 body{
-    
+    background-color: #1E2D3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#cover{
-    margin: 5px;
-    height: 300px;
-    width: 150px;
-    
-    
-    border: 1px solid black;
+.container{
+    width: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+span{
+    display: block;
 }
 .title{
     text-align: center;
     text-transform: uppercase;
+    color: white;
+    font-weight: bold;
 }
 .artist, .year{
     text-align: center;
+    color: lightslategray;
+    margin-top: 7px;
+}
+.card{
+    margin: 5px;
+    height: 300px;
+    width: 150px;
+    background-color: #2E3A46;
+}
+.cover-up{
+    display: flex;
+    justify-content: center;
+}
+.card .cover-up img{
+    width: 100%;
+    padding: 10px;
 }
